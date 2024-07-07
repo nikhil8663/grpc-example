@@ -5,15 +5,25 @@ This is a simple example of a gRPC client and server implemented in Go.
 ## Project Structure
 
 grpc-example/
+
 ├── client/
+
 │ └── client.go
+
 ├── go.mod
+
 ├── go.sum
+
 ├── helloworld/
+
 │ ├── helloworld.proto
+
 │ ├── helloworld.pb.go
+
 │ └── helloworld_grpc.pb.go
+
 └── server/
+
     └── server.go
 
 ## Prerequisites
